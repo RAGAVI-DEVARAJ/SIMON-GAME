@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simon Instructions</title>
+  <link rel="icon" href="ico.png">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+    }
+    .level-title {
+      font-family: 'Press Start 2P', cursive;
+      font-size: 3rem;
+      margin:  0 39%;
+      color: black;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    h1 {
+      color: #333;
+      text-align: center;
+    }
+
+    p {
+      color: #666;
+      line-height: 1.5;
+    }
+    .button {
+  padding: 15px 30px;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  transition: 0.5s;
+  background: #1e1e1e;
+  color: greenyellow;
+  box-shadow: 0 0 10px #363636, inset 0 0 10px #363636;
+}
+
+.button:hover {
+  animation: a 0.5s 1 linear;
+}
+
+@keyframes a {
+  0% {
+    transform: scale(0.7, 1.3);
+  }
+
+  25% {
+    transform: scale(1.3, 0.7);
+  }
+
+  50% {
+    transform: scale(0.7, 1.3);
+  }
+
+  75% {
+    transform: scale(1.3, 0.7);
+  }
+
+  100% {
+    transform: scale(1, 1);
+  }
+}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Instructions</h1>
+    <p>Welcome to the Game! Here are the instructions to get started:</p>
+    <ol>
+      <li>Step 1: Press the START button. Simon will give the first colour signal. Repeat the signal by pressing the same color..</li><br>
+      <li>Step 2: Simon will duplicate the first signal and add one. Repeat these two signals by pressing the same color buttons, in order.</li><br>
+      <li>Step 3: Simon will duplicate these first two signals and add one.</li><br>
+      <li>Step 4: Continue playing as long as you can repeat each sequence of signals correctly.</li><br>
+      <li>Step 5: If you fail to repeat a sequence exactly, Simon responds with a "RAZZ" sound. This means you've lost, and the sequence of signals ends.</li>
+    </ol>
+    <p>If you have any questions, please <a href="https://www.linkedin.com/in/ragavi-devaraj-538609268/" target="blank">contact me</a>.</p>
+    <a class="btn btn-lg button level-title" href="third.html" role="button">Let's start</a>
+  </div>
+
+</body>
+</html>
